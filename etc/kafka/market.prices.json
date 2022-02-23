@@ -1,0 +1,20 @@
+{
+    "tableName": "prices",
+    "schemaName": "market",
+    "topicName": "market.prices",
+    "message": {
+        "dataFormat": "json",
+        "fields": [
+          {
+            "name": "symbol",
+            "mapping": "symbol",
+            "type": "VARCHAR"
+          },
+          {
+            "name": "price",
+            "mapping": "price",
+            "type": "DOUBLE"
+          }
+        ]
+    }
+}
